@@ -5,7 +5,7 @@ class Estudiante:
         self.edad = edad
         self.notas: dict[str, float] = notas
         self.nivel_ingles = nivel_ingles
-    
+
     def calcular_promedio(self):
         if len(self.notas) == 0:
             return None
